@@ -34,6 +34,9 @@ header{
   display: flex;
   align-items: center;
   padding: 1rem;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
 }
 header a{
   color: #fff;
@@ -49,6 +52,10 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem; */
 }
 .content{
   display: flex;
@@ -108,4 +115,11 @@ button:hover{
 }
 .button.primary{
   background-color: #f0c040;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
 }
